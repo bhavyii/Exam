@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluation</title>
+</head>
+<body>
+    <script>
+    const h1 = document.createElement('h1')
+    h1.setAttribute("style", "strong")
+    h1.textContent = "Evaluation Unit 2"
+    const p = document.createElement('p')
+    p.textContent = " This is my exam for unit 2 "
+    const p2 = document.createElement('p')
+    p2.textContent = " Leave a comment: "
+    const input = document.createElement('input')
+    p2.append(input)
+    const ul = document.createElement('ul')
+    ul.textContent = "My supermarket list"
+    const li = document.createElement('li')
+    const li1 = document.createElement('li')
+    const li2 = document.createElement('li')
+    li.textContent = "Tomato"
+    li1.textContent = "Beans"
+    li2.textContent = "Potato"
+    ul.append(li, li1, li2) 
+    document.body.append(h1)
+    document.body.append(p) 
+    document.body.append(p2)
+    document.body.append(ul)
+    </script>
+</body>
+</html>
